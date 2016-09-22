@@ -1,0 +1,23 @@
+{
+  "name": "project_1",
+  "version": "0.0.1",
+  "description": "udacity responsive images",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sunny",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-bower-task": "^0.4.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-newer": "^1.2.0",
+    "grunt-responsive-images": "^0.1.9",
+    "imagemin-mozjpeg": "^5.1.0",
+    "smartcrop-cli": "^1.0.2"
+  }
+}

@@ -1,0 +1,155 @@
+/*
+
+CONTENTS
+* CH01 - Resets
+* CH02 - General, Typography
+* CH03 - Header
+* CH04 - Navigation
+* CH05 - Content & Media
+* CH06 - Footer
+* CH07 - Other
+* CH08 - Media Queries
+
+*/
+
+
+/* CH01 RESETS */
+
+
+/* CH02 GENERAL & LAYOUT */
+
+body {
+    font-size: 18px;
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+
+.center_block {
+    margin: auto;
+    display: block;
+}
+
+.center_text {
+    text-align: center;
+}
+
+
+/* CH03 TYPOGRAPHY & HEADINGS */
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #444;
+    font-size: 1em;
+}
+
+h2 {
+    text-transform: capitalize;
+    color: #555;
+    font-weight: 500;
+}
+
+
+/* CH04 HEADER & NAV */
+
+.logo {
+    display: block;
+    margin: auto;
+    max-width: 13%;
+}
+
+
+/* CH05 CONTENT/MEDIA */
+
+article {
+    max-width: 50em;
+    margin: 1em auto;
+    padding: 1em 2em;
+}
+
+section {
+    border: 4px double #ccc;
+    border-width: 0 0 4px 0;
+    margin: 1em 0;
+}
+
+section p:first-of-type:first-letter {
+    font-family: Times New Roman, Serif;
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 1em;
+    color: #444;
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+    border: 1px dashed #ccc;
+    padding: 1.1em;
+    margin: 0;
+    font-size: .9em;
+    font-style: italic;
+}
+
+figcaption {
+    margin: .3em 0;
+}
+
+hr {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+}
+
+
+/* CH06 FOOTER */
+
+.social {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+}
+
+.social li {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.social a {
+    padding: 1em;
+    color: #666;
+}
+
+.social a:hover {
+    color: blue;
+}
+
+.social span {
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+    /*override the font awesome text font*/
+    font-style: italic;
+}
+
+
+/* CH07 OTHER */
+
+
+/* CH08 MEDIA QUERIES */
+
+@media screen and (min-width: 600px) {
+    .social li {
+        display: inline-block;
+        margin: -3px;
+        width: 25%;
+    }
+    .logo {
+        max-width: 8%;
+    }
+    h1 {
+        font-size: 2em;
+    }
+}

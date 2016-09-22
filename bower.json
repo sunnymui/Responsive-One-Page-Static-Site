@@ -1,0 +1,29 @@
+{
+  "name": "project start 1",
+  "description": "udacity responsive images",
+  "main": "index.html",
+  "authors": [
+    "sunny"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {},
+  "install": {
+    "path": "src/libs",
+    "sources": {
+      "jquery": "bower_components/jquery/dist/**",
+      "picturefill": "bower_components/picturefill/dist/**"
+    }
+  },
+  "dependencies": {
+    "jquery": "^3.1.0"
+  }
+}
