@@ -1,5 +1,7 @@
 # Responsive Images: Project Part 1 #
 
+DEMO: [https://sunnymui.github.io/Responsive-One-Page-Static-Site/](https://sunnymui.github.io/Responsive-One-Page-Static-Site/)
+
 For this project, I took some basic provided and unstyled page and made it into a more complete styled fully responsive single page static site. 
 
 Placeholder text used.
